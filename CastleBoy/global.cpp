@@ -1,9 +1,8 @@
 #include "global.h"
-
 #include "assets.h"
 
-Arduboy ab;
-Sprites sprites(ab);
+Arduboy2 ab;
+Sprites sprites;
 ArduboyTones sound(ab.audio.enabled);
 uint8_t mainState;
 uint8_t flashCounter = 0;
